@@ -1,0 +1,2 @@
+VITE_API_BASE_URL="your-upload-backend-url"
+CHATBOT_BASE_URL="your-chatbot-backend-url"

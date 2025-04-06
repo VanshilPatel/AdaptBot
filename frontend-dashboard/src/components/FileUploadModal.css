@@ -1,0 +1,75 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .modal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  .dropzone {
+    border: 2px dashed var(--border-color);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .dropzone.active {
+    border-color: var(--primary-color);
+  }
+  
+  .file-list {
+    margin-top: 20px;
+  }
+  
+  .file-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .file-list li {
+    margin-bottom: 5px;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .modal-actions button {
+    padding: 10px 20px;
+  }
+  
+  .modal-actions button[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .modal-actions button[type="button"] {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+  }
+  
+  
